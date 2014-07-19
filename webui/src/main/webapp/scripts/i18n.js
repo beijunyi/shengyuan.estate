@@ -6,6 +6,6 @@ var i18n = {
   },
 
   'zh-CN': {
-    SHENGYUAN_ESTATE: 'Shengyuan Estate'
+    SHENGYUAN_ESTATE: '圣源地产'
   }
 };

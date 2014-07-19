@@ -1,11 +1,18 @@
 <!DOCTYPE html>
+<meta charset="UTF-8">
 <html ng-app="shengyuan">
 <head>
   <title>{{'SHENGYUAN_ESTATE' | translate}}</title>
-  <link rel="stylesheet" href="resources/style/shengyuan.css">
+  <link rel="stylesheet" href="resources/styles/shengyuan.css">
 </head>
 
 <body>
+
+<div class="s-navigation"></div>
+<div ng-view></div>
+
+
+
 <script src="lib/jquery/jquery-2.1.1.js"></script>
 
 <script src="lib/angular/angular.js"></script>
@@ -17,5 +24,12 @@
 
 <script src="scripts/i18n.js"></script>
 <script src="scripts/app.js"></script>
+
+<script src="scripts/components/Navigation.js"></script>
+<script src="scripts/components/NavigationController.js"></script>
+
+<script src="scripts/controllers/HomeController.js"></script>
+
+
 </body>
 </html>
