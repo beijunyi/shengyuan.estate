@@ -1,0 +1,12 @@
+div.s-global-footer div.s-contacts-container {
+  text-align: center;
+}
+
+div.s-global-footer a.s-separator {
+  background: url('../images/footer-separator.png') no-repeat;
+  background-size: auto 100%;
+  display: block;
+  height: 44px;
+  width: 353px;
+  margin: 0 auto;
+}
