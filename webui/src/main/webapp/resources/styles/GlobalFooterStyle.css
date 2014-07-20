@@ -4,9 +4,43 @@ div.s-global-footer div.s-contacts-container {
 
 div.s-global-footer a.s-separator {
   background: url('../images/footer-separator.png') no-repeat;
-  background-size: auto 100%;
+  background-size: 100% 100%;
   display: block;
-  height: 44px;
   width: 353px;
+  height: 44px;
   margin: 0 auto;
+}
+
+div.s-global-footer ul.s-tip-links-container {
+  padding: 0 30px;
+  height: 150px;
+}
+
+div.s-global-footer li.s-tip-link {
+  display: inline-block;
+  margin: 0 30px;
+  float: left;
+}
+
+div.s-global-footer li.s-tip-link > a {
+  background-size: 100% 100%;
+  display: block;
+  width: 225px;
+  height: 150px;
+}
+
+div.s-global-footer a.s-tip-property-types {
+  background: url('../images/property_types_image.jpg') no-repeat;
+}
+
+div.s-global-footer a.s-tip-property-rights {
+  background: url('../images/property_rights_image.jpg') no-repeat;
+}
+
+div.s-global-footer a.s-tip-purchase-process {
+  background: url('../images/purchase_process_image.jpg') no-repeat;
+}
+
+div.s-global-footer a.s-tip-investment-timing {
+  background: url('../images/investment_timing_image.jpg') no-repeat;
 }
