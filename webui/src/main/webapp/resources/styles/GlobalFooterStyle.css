@@ -22,30 +22,30 @@ div.s-global-footer li.s-tip-link {
   float: left;
 }
 
-div.s-global-footer li.s-tip-link > p {
+div.s-global-footer li.s-tip-link > a {
   background-size: 100% 100%;
   display: block;
   width: 225px;
   height: 150px;
 }
 
-div.s-global-footer p.s-tip-property-types {
+div.s-global-footer a.s-tip-property-types {
   background: url('../images/property_types_image.jpg') no-repeat;
 }
 
-div.s-global-footer p.s-tip-property-rights {
+div.s-global-footer a.s-tip-property-rights {
   background: url('../images/property_rights_image.jpg') no-repeat;
 }
 
-div.s-global-footer p.s-tip-purchase-process {
+div.s-global-footer a.s-tip-purchase-process {
   background: url('../images/purchase_process_image.jpg') no-repeat;
 }
 
-div.s-global-footer p.s-tip-investment-timing {
+div.s-global-footer a.s-tip-investment-timing {
   background: url('../images/investment_timing_image.jpg') no-repeat;
 }
 
-div.s-global-footer li.s-tip-link a {
+div.s-global-footer li.s-tip-link span {
   color: #FFFFFF;
   display: block;
   width: 100%;
