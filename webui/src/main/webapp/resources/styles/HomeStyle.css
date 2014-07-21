@@ -1,0 +1,23 @@
+div.s-home-container div.s-home-main-body {
+  padding: 75px;
+}
+
+div.s-home-container div.s-home-main-body > div {
+  display: inline-block;
+}
+
+div.s-home-container div.s-letter-container {
+  width: 710px;
+}
+
+div.s-home-container h5.s-letter-opening {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+div.s-home-container p.s-letter-content {
+  white-space: pre-wrap;
+  padding: 0 75px 0 0;
+  font-size: 14px;
+  line-height: 25px;
+}

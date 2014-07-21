@@ -15,7 +15,7 @@ var shengyuan = angular
     });
 
     $routeProvider.when('/home', {
-      templateUrl: 'views/Home.html',
+      templateUrl: 'views/HomeView.html',
       controller: 'HomeController'
     }).otherwise({
         redirectTo: '/home'
