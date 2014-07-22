@@ -1,6 +1,14 @@
+div.s-home-container a.s-home-jumbotron {
+  background: url('../images/home_jumbotron.jpg') no-repeat center -60px;
+  background-size: 100% auto;
+  display: block;
+  width: 1200px;
+  height: 525px;
+}
+
 div.s-home-container div.s-home-main-body {
-  padding: 75px;
-  height: 700px;
+  padding: 75px 75px 0 75px;
+  height: 680px;
 }
 
 div.s-home-container div.s-home-main-body > div {

@@ -1,3 +1,13 @@
+div.s-global-footer hr.s-footer-top-line {
+  width: 1080px;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #B81C25;
+  margin: 40px auto;
+  padding: 0;
+}
+
 div.s-global-footer div.s-contacts-container {
   text-align: center;
 }
