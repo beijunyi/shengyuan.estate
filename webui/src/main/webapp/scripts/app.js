@@ -7,11 +7,12 @@ var shengyuan = angular
     });
 
     $translateProvider.determinePreferredLanguage(function () {
-      var language = navigator.language;
-      if(i18n[language])
-        return language;
-      else
-        return i18n.defaults;
+//      var language = navigator.language;
+//      if(i18n[language])
+//        return language;
+//      else
+//        return i18n.defaults;
+      return 'zh-CN';
     });
 
     $routeProvider.when('/home', {
