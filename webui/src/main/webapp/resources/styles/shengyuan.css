@@ -1,5 +1,6 @@
 html {
   background: #F7F7F7;
+  overflow-y: scroll;
 }
 
 body {
@@ -10,4 +11,5 @@ body {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
