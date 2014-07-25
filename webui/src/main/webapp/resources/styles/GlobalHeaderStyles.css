@@ -7,7 +7,7 @@ div.s-global-header a.s-brand {
 }
 
 div.s-global-header div.s-global-header-bottom {
-  height: 40px;
+  height: 35px;
   background: #B81C25;
   color: #FFFFFF;
 }
@@ -23,7 +23,7 @@ div.s-global-header ul.s-tab-container > li {
   height: 100%;
   display: inline-block;
   text-align: center;
-  line-height: 40px;
+  line-height: 35px;
   width: 150px;
   float: left;
 }

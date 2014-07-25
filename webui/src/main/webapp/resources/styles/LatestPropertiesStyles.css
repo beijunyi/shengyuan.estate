@@ -1,0 +1,7 @@
+div.s-latest-properties-container a.s-latest-properties-jumbotron {
+  background: url('../images/latest_properties_jumbotron.jpg') no-repeat center -20px;
+  background-size: 100% auto;
+  display: block;
+  width: 1000px;
+  height: 450px;
+}
