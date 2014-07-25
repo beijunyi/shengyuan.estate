@@ -13,7 +13,7 @@ div.s-global-header div.s-global-header-bottom {
 }
 
 div.s-global-header ul.s-tab-container {
-  width: 1020px;
+  width: 900px;
   height: 100%;
   margin: 0 auto;
   padding: 0;
@@ -24,7 +24,7 @@ div.s-global-header ul.s-tab-container > li {
   display: inline-block;
   text-align: center;
   line-height: 40px;
-  width: 170px;
+  width: 150px;
   float: left;
 }
 

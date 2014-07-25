@@ -2,13 +2,13 @@ div.s-home-container a.s-home-jumbotron {
   background: url('../images/home_jumbotron.jpg') no-repeat center -60px;
   background-size: 100% auto;
   display: block;
-  width: 1200px;
-  height: 525px;
+  width: 1000px;
+  height: 450px;
 }
 
 div.s-home-container div.s-home-main-body {
-  padding: 75px 75px 0 75px;
-  height: 680px;
+  padding: 50px 50px 0 50px;
+  height: 630px;
 }
 
 div.s-home-container div.s-home-main-body > div {
@@ -17,23 +17,23 @@ div.s-home-container div.s-home-main-body > div {
 }
 
 div.s-home-container div.s-home-left {
-  width: 70%;
+  width: 65%;
 }
 
 div.s-home-container h5.s-letter-opening {
-  font-size: 18px;
-  margin: 0 0 20px 0;
+  font-size: 16px;
+  margin: 0 0 15px 0;
 }
 
 div.s-home-container p.s-letter-content {
   white-space: pre-wrap;
-  padding: 0 75px 0 0;
-  font-size: 15px;
-  line-height: 22px;
+  padding: 0 50px 0 0;
+  font-size: 13px;
+  line-height: 20px;
 }
 
 div.s-home-container div.s-home-right {
-  width: 30%;
+  width: 35%;
 }
 
 div.s-home-container h5.s-business-scope-title {
@@ -63,9 +63,9 @@ div.s-home-container a.s-office-image {
   background: url('../images/office_image.png') no-repeat;
   background-size: 100% auto;
   display: block;
-  width: 415px;
-  height: 210px;
-  margin: 10px -50px;
+  width: 330px;
+  height: 165px;
+  margin: 10px 0;
 }
 
 div.s-home-container div.s-office-contacts-container {
