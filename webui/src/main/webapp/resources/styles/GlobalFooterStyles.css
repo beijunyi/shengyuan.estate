@@ -15,7 +15,7 @@ div.s-global-footer div.s-contacts-container {
 }
 
 div.s-global-footer a.s-separator {
-  background: url('../images/footer-separator.png') no-repeat;
+  background: url('../images/footer_separator.png') no-repeat;
   background-size: 100% 100%;
   display: block;
   width: 353px;

@@ -1,0 +1,7 @@
+div.s-geomancy-advisory-container a.s-geomancy-advisory-jumbotron {
+  background: url('../images/geomancy_advisory_jumbotron.jpg') no-repeat center -100px;
+  background-size: 100% auto;
+  display: block;
+  width: 1000px;
+  height: 450px;
+}
