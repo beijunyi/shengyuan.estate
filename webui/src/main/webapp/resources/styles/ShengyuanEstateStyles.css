@@ -5,3 +5,36 @@ div.s-shengyuan-estate-container a.s-shengyuan-estate-jumbotron {
   width: 1000px;
   height: 450px;
 }
+
+div.s-shengyuan-estate-container div.s-shengyuan-estate-main-body {
+  padding: 50px 50px 0 50px;
+  height: 600px;
+}
+
+div.s-shengyuan-estate-container div.s-shengyuan-estate-main-body > div {
+  display: inline-block;
+  float: left;
+}
+
+div.s-shengyuan-estate-container div.s-shengyuan-estate-left {
+  width: 65%;
+}
+
+div.s-shengyuan-estate-container div.s-shengyuan-estate-right {
+  width: 35%;
+}
+
+div.s-shengyuan-estate-container p.s-shengyuan-estate-introduction {
+  white-space: pre-wrap;
+  padding: 0 50px 0 0;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+div.s-shengyuan-estate-container a.s-shengyuan-estate-footer-jumbotron {
+  background: url('../images/shengyuan_estate_footer_jumbotron.png') no-repeat center ;
+  background-size: 100% auto;
+  display: block;
+  width: 1000px;
+  height: 500px;
+}

@@ -1,0 +1,68 @@
+div.s-business-info-container h5.s-business-scope-title {
+  text-align: center;
+  color: #B81C25;
+  font-size: 15px;
+  margin: 0;
+  letter-spacing: 5px;
+}
+
+div.s-business-info-container p.s-business-scope-details {
+  text-align: center;
+  white-space: pre-wrap;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+div.s-business-info-container h5.s-office-title {
+  text-align: center;
+  font-size: 15px;
+  margin: 0;
+  letter-spacing: 5px;
+}
+
+div.s-business-info-container a.s-office-image {
+  background: url('../images/office_image.png') no-repeat;
+  background-size: 100% auto;
+  display: block;
+  width: 330px;
+  height: 165px;
+  margin: 10px 0;
+}
+
+div.s-business-info-container div.s-office-contacts-container {
+  height: 120px;
+}
+
+div.s-business-info-container div.s-office-contacts-container > div {
+  display: inline-block;
+  width: 50%;
+  float: left;
+}
+
+div.s-business-info-container div.s-home-right-top {
+  margin: 0 0 50px 0;
+}
+
+div.s-business-info-container h5.s-office-contacts-title {
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+div.s-business-info-container p.s-office-contacts-details {
+  white-space: pre-wrap;
+  font-size: 13px;
+}
+
+div.s-business-info-container h5.s-service-points-title {
+  text-align: center;
+  font-size: 15px;
+  margin: 10px 0 0 0;
+  letter-spacing: 5px;
+}
+
+div.s-business-info-container p.s-service-points-details {
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+}
