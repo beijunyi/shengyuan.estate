@@ -6,6 +6,8 @@ var i18n = {
   },
 
   'zh-CN': {
+    MOTTO: '携手圣源，幸福之源',
+
     SHENGYUAN_ESTATE: '圣源地产',
     SHENGYUAN_GROUP: '圣源集团',
     INVESTMENT_CONSULTING: '投资资讯',

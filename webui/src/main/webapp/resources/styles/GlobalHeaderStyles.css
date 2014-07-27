@@ -1,3 +1,19 @@
+div.s-global-header-container div.s-global-header-top {
+  height: 133px;
+}
+
+div.s-global-header-container div.s-global-header-top > div {
+  display: inline-block;
+  float: left;
+  width: 50%;
+}
+
+div.s-global-header-container p.s-motto {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
 div.s-global-header-container a.s-brand {
   background: url('../images/brand.png') no-repeat;
   background-size: 100% auto;
