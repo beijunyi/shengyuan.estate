@@ -8,7 +8,7 @@ div.s-shengyuan-group-container a.s-shengyuan-group-jumbotron {
 
 div.s-shengyuan-group-container div.s-shengyuan-group-main-body {
   padding: 50px 50px 0 50px;
-  height: 630px;
+  height: 500px;
 }
 
 div.s-shengyuan-group-container div.s-shengyuan-group-main-body > div {
@@ -31,3 +31,18 @@ div.s-shengyuan-group-container p.s-shengyuan-group-introduction {
   line-height: 20px;
 }
 
+div.s-shengyuan-group-container a.s-shengyuan-group-members-image {
+  background: url('../images/shengyuan_group_members_image.png') no-repeat center;
+  background-size: 100% auto;
+  display: block;
+  width: 315px;
+  height: 495px;
+}
+
+div.s-shengyuan-group-container a.s-shengyuan-group-footer-jumbotron {
+  background: url('../images/shengyuan_group_footer_jumbotron.png') no-repeat center;
+  background-size: 100% auto;
+  display: block;
+  width: 1000px;
+  height: 286px;
+}
