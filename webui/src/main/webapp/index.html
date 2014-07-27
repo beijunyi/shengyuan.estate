@@ -19,9 +19,9 @@
 
 <body>
 
-<div class="s-global-header"></div>
+<div ng-include="'views/GlobalHeaderView.html'"></div>
 <div ng-view></div>
-<div class="s-global-footer"></div>
+<div ng-include="'views/GlobalFooterView.html'"></div>
 
 
 
@@ -37,8 +37,6 @@
 <script src="scripts/i18n.js"></script>
 <script src="scripts/app.js"></script>
 
-<script src="scripts/components/GlobalFooter.js"></script>
-<script src="scripts/components/GlobalHeader.js"></script>
 <script src="scripts/components/GlobalHeaderController.js"></script>
 
 </body>

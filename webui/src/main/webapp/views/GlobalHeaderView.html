@@ -1,4 +1,4 @@
-<div class="s-global-header-container">
+<div class="s-global-header-container" ng-controller="GlobalHeaderController">
   <div class="s-global-header-top">
     <div class="s-global-header-top-left">
       <div class="s-brand-container">
@@ -17,22 +17,22 @@
   </div>
   <div class="s-global-header-bottom">
     <ul class="s-tab-container">
-      <li class="s-tab">
+      <li class="s-tab" ng-class="{'s-tab-active': isActive('/shengyuan_estate')}">
         <a href="#/shengyuan_estate">{{'SHENGYUAN_ESTATE' | translate}}</a>
       </li>
-      <li class="s-tab">
+      <li class="s-tab" ng-class="{'s-tab-active': isActive('/shengyuan_group')}">
         <a href="#/shengyuan_group">{{'SHENGYUAN_GROUP' | translate}}</a>
       </li>
-      <li class="s-tab">
+      <li class="s-tab" ng-class="{'s-tab-active': isActive('/investment_consulting')}">
         <a href="#/investment_consulting">{{'INVESTMENT_CONSULTING' | translate}}</a>
       </li>
-      <li class="s-tab">
+      <li class="s-tab" ng-class="{'s-tab-active': isActive('/geomancy_advisory')}">
         <a href="#/geomancy_advisory">{{'GEOMANCY_ADVISORY' | translate}}</a>
       </li>
-      <li class="s-tab">
+      <li class="s-tab" ng-class="{'s-tab-active': isActive('/latest_properties')}">
         <a href="#/latest_properties">{{'LATEST_PROPERTIES' | translate}}</a>
       </li>
-      <li class="s-tab">
+      <li class="s-tab" ng-class="{'s-tab-active': isActive('/customer_testimonials')}">
         <a href="#/customer_testimonials">{{'CUSTOMER_TESTIMONIALS' | translate}}</a>
       </li>
     </ul>

@@ -1,4 +1,4 @@
-div.s-global-footer hr.s-footer-top-line {
+div.s-global-footer-container hr.s-footer-top-line {
   width: 930px;
   display: block;
   height: 1px;
@@ -8,13 +8,13 @@ div.s-global-footer hr.s-footer-top-line {
   padding: 0;
 }
 
-div.s-global-footer div.s-contacts-container {
+div.s-global-footer-container div.s-contacts-container {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
 }
 
-div.s-global-footer a.s-separator {
+div.s-global-footer-container a.s-separator {
   background: url('../images/footer_separator.png') no-repeat;
   background-size: 100% 100%;
   display: block;
@@ -23,18 +23,18 @@ div.s-global-footer a.s-separator {
   margin: 0 auto;
 }
 
-div.s-global-footer ul.s-tip-links-container {
+div.s-global-footer-container ul.s-tip-links-container {
   padding: 0 20px;
   height: 150px;
 }
 
-div.s-global-footer li.s-tip-link {
+div.s-global-footer-container li.s-tip-link {
   display: inline-block;
   margin: 0 15px;
   float: left;
 }
 
-div.s-global-footer li.s-tip-link > a {
+div.s-global-footer-container li.s-tip-link > a {
   background-size: 100% auto;
   display: block;
   width: 210px;
@@ -44,23 +44,23 @@ div.s-global-footer li.s-tip-link > a {
   letter-spacing: 1px;
 }
 
-div.s-global-footer a.s-tip-property-types {
+div.s-global-footer-container a.s-tip-property-types {
   background: url('../images/property_types_image.jpg') no-repeat;
 }
 
-div.s-global-footer a.s-tip-property-rights {
+div.s-global-footer-container a.s-tip-property-rights {
   background: url('../images/property_rights_image.jpg') no-repeat;
 }
 
-div.s-global-footer a.s-tip-purchase-process {
+div.s-global-footer-container a.s-tip-purchase-process {
   background: url('../images/purchase_process_image.jpg') no-repeat;
 }
 
-div.s-global-footer a.s-tip-investment-timing {
+div.s-global-footer-container a.s-tip-investment-timing {
   background: url('../images/investment_timing_image.jpg') no-repeat;
 }
 
-div.s-global-footer li.s-tip-link span {
+div.s-global-footer-container li.s-tip-link span {
   color: #FFFFFF;
   display: block;
   width: 100%;

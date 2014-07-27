@@ -1,4 +1,4 @@
-div.s-global-header a.s-brand {
+div.s-global-header-container a.s-brand {
   background: url('../images/brand.png') no-repeat;
   background-size: 100% auto;
   display: block;
@@ -6,20 +6,20 @@ div.s-global-header a.s-brand {
   height: 133px;
 }
 
-div.s-global-header div.s-global-header-bottom {
+div.s-global-header-container div.s-global-header-bottom {
   height: 35px;
   background: #B81C25;
   color: #FFFFFF;
 }
 
-div.s-global-header ul.s-tab-container {
+div.s-global-header-container ul.s-tab-container {
   width: 900px;
   height: 100%;
   margin: 0 auto;
   padding: 0;
 }
 
-div.s-global-header ul.s-tab-container > li {
+div.s-global-header-container ul.s-tab-container > li {
   height: 100%;
   display: inline-block;
   text-align: center;
@@ -28,6 +28,11 @@ div.s-global-header ul.s-tab-container > li {
   float: left;
 }
 
-div.s-global-header li.s-tab > a {
+div.s-global-header-container li.s-tab > a {
   display: block;
+}
+
+div.s-global-header-container li.s-tab-active > a {
+  background: #FFFFFF;
+  color: #B81C25;
 }
