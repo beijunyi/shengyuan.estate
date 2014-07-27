@@ -5,3 +5,73 @@ div.s-customer-testimonials-container a.s-customer-testimonials-jumbotron {
   width: 1000px;
   height: 450px;
 }
+
+div.s-customer-testimonials-container div.s-customer-testimonials-main-body {
+  padding: 50px 50px 0 50px;
+  height: 720px;
+}
+
+div.s-customer-testimonials-container ul.s-customer-testimonials-list {
+  list-style-type: none;
+}
+
+div.s-customer-testimonials-container li.s-customer-testimonial {
+  height: 136px;
+  padding: 0 0 40px;
+}
+
+div.s-customer-testimonials-container li.s-customer-testimonial > div {
+  display: inline-block;
+  float: left;
+}
+
+div.s-customer-testimonials-container div.s-customer-testimonial-image-container {
+  width: 30%;
+}
+
+div.s-customer-testimonials-container div.s-customer-testimonial-text-container {
+  width: 70%;
+  margin: 10px 0 0 0;
+}
+
+div.s-customer-testimonials-container a.s-customer-testimonial-image-1 {
+  background: url('../images/customer_testimonial_1_image.jpg') no-repeat center;
+  background-size: 100% auto;
+  display: block;
+  width: 200px;
+  height: 136px;
+}
+
+div.s-customer-testimonials-container a.s-customer-testimonial-image-2 {
+  background: url('../images/customer_testimonial_2_image.jpg') no-repeat center;
+  background-size: 100% auto;
+  display: block;
+  width: 200px;
+  height: 136px;
+}
+
+div.s-customer-testimonials-container a.s-customer-testimonial-image-3 {
+  background: url('../images/customer_testimonial_3_image.jpg') no-repeat center;
+  background-size: 100% auto;
+  display: block;
+  width: 200px;
+  height: 136px;
+}
+
+div.s-customer-testimonials-container a.s-customer-testimonial-image-4 {
+  background: url('../images/customer_testimonial_4_image.jpg') no-repeat center;
+  background-size: 100% auto;
+  display: block;
+  width: 200px;
+  height: 136px;
+}
+
+div.s-customer-testimonials-container div.s-customer-testimonial-text-container p {
+  font-size: 13px;
+  line-height: 20px;
+  padding-right: 20px;
+}
+
+div.s-customer-testimonials-container p.s-customer-testimonial-author {
+  text-align: right;
+}
