@@ -1,5 +1,5 @@
 div.s-home-container a.s-home-jumbotron {
-  background: url('../images/home_jumbotron.jpg') no-repeat center -60px;
+  background: url('../images/home_jumbotron.jpg') no-repeat center;
   background-size: 100% auto;
   display: block;
   width: 1000px;
