@@ -34,16 +34,12 @@ div.s-geomancy-advisory-container a.s-geomancy-introduction-image {
 
 div.s-geomancy-advisory-container div.s-geomancy-expert-images-container {
   height: 214px;
-}
-
-div.s-geomancy-advisory-container div.s-geomancy-expert-images-container > div {
-  display: inline-block;
-  float: left;
   font-size: 12px;
 }
 
 div.s-geomancy-advisory-container div.s-geomancy-expert-images-container p {
-  padding: 5px;
+  margin: 5px 0 10px;
+  text-align: center;
 }
 
 div.s-geomancy-advisory-container div.s-geomancy-expert-image-left-container {
@@ -54,20 +50,13 @@ div.s-geomancy-advisory-container div.s-geomancy-expert-image-right-container {
   width: 132px;
 }
 
-div.s-geomancy-advisory-container a.s-geomancy-expert-image-left {
-  background: url('../images/geomancy_expert_image_1.png') no-repeat center;
+div.s-geomancy-advisory-container a.s-geomancy-expert-image {
+  background: url('../images/geomancy_expert_image.jpg') no-repeat center;
   background-size: 100% auto;
   display: block;
-  width: 183px;
-  height: 152px;
-}
-
-div.s-geomancy-advisory-container a.s-geomancy-expert-image-right {
-  background: url('../images/geomancy_expert_image_2.png') no-repeat center;
-  background-size: 100% auto;
-  display: block;
-  width: 132px;
-  height: 152px;
+  width: 280px;
+  height: 187px;
+  margin: 0 auto;
 }
 
 div.s-geomancy-advisory-container p.s-geomancy-expert-text {
