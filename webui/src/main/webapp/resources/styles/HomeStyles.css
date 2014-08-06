@@ -1,11 +1,3 @@
-div.s-home-container a.s-home-jumbotron {
-  background: url('../images/home_jumbotron.jpg') no-repeat center;
-  background-size: 100% auto;
-  display: block;
-  width: 1000px;
-  height: 450px;
-}
-
 div.s-home-container div.s-home-main-body {
   padding: 50px 50px 0 50px;
   height: 630px;

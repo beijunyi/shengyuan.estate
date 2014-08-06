@@ -37,4 +37,9 @@
       </li>
     </ul>
   </div>
+  <div id="s-carousel-container" ng-controller="CarouselController">
+    <div class="s-carousel-slide" ng-repeat="s in slides" ng-show="s.visible">
+      <img ng-src="resources/images/{{s.src}}">
+    </div>
+  </div>
 </div>

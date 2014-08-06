@@ -1,10 +1,3 @@
-div.s-investment-consulting-container a.s-investment-consulting-jumbotron {
-  background: url('../images/investment_consulting_jumbotron.jpg') no-repeat center -100px;
-  background-size: 100% auto;
-  display: block;
-  width: 1000px;
-  height: 450px;
-}
 div.s-investment-consulting-container div.s-investment-consulting-main-body {
   padding: 50px 50px 0 50px;
   height: 500px;

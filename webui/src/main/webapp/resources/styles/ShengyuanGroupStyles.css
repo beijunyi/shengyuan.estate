@@ -1,11 +1,3 @@
-div.s-shengyuan-group-container a.s-shengyuan-group-jumbotron {
-  background: url('../images/shengyuan_group_jumbotron.jpg') no-repeat center -180px;
-  background-size: 100% auto;
-  display: block;
-  width: 1000px;
-  height: 450px;
-}
-
 div.s-shengyuan-group-container div.s-shengyuan-group-main-body {
   padding: 50px 50px 0 50px;
   height: 500px;
