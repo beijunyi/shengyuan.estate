@@ -13,12 +13,14 @@ shengyuan.controller('CarouselController', function ($scope, $timeout) {
 
   $scope.currentSlide = 0;
 
-  $scope.next = function() {
+  $scope.next = function next() {
     $scope.currentSlide < $scope.slides.length - 1 ? $scope.currentSlide++ : $scope.currentSlide = 0;
+    loopSliding();
   };
 
   $scope.prev = function() {
     $scope.currentSlide > 0 ? $scope.currentSlide-- : $scope.currentSlide = $scope.slides.length - 1;
+    loopSliding();
   };
 
   $scope.$watch('currentSlide', function() {
@@ -30,14 +32,14 @@ shengyuan.controller('CarouselController', function ($scope, $timeout) {
   });
 
   var timer;
-  var sliderFunc = function() {
+  function loopSliding() {
+    $timeout.cancel(timer);
     timer = $timeout(function() {
       $scope.next();
-      timer = $timeout(sliderFunc, 5000);
-    }, 5000);
-  };
+    }, 8000);
+  }
 
-  sliderFunc();
+  loopSliding();
 
   $scope.$on('$destroy', function() {
     $timeout.cancel(timer);

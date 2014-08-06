@@ -10,19 +10,24 @@
   left: 0;
 }
 
-.s-carousel-slide.ng-hide-add,
-.s-carousel-slide.ng-hide-remove {
-  -webkit-transition: all linear 0.5s;
-  -moz-transition: all linear 0.5s;
-  -o-transition: all linear 0.5s;
-  transition: all linear 0.5s;
-  display: block!important;
+#s-carousel-container img {
+  display: block;
 }
-.s-carousel-slide.ng-hide-add.ng-hide-add-active,
-.s-carousel-slide.ng-hide-remove {
+
+#s-carousel-container .s-carousel-slide.ng-hide-add,
+#s-carousel-container .s-carousel-slide.ng-hide-remove {
+  -webkit-transition: all linear 0.8s;
+  -moz-transition: all linear 0.8s;
+  -o-transition: all linear 0.8s;
+  transition: all linear 0.8s;
+}
+
+#s-carousel-container .s-carousel-slide.ng-hide-add.ng-hide-add-active,
+#s-carousel-container .s-carousel-slide.ng-hide-remove {
   opacity: 0;
 }
-.s-carousel-slide.ng-hide-add,
-.s-carousel-slide.ng-hide-remove.ng-hide-remove-active {
+
+#s-carousel-container .s-carousel-slide.ng-hide-add,
+#s-carousel-container .s-carousel-slide.ng-hide-remove.ng-hide-remove-active {
   opacity: 1;
 }
