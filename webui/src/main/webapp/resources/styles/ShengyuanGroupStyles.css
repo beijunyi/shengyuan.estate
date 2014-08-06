@@ -38,11 +38,3 @@ div.s-shengyuan-group-container a.s-shengyuan-group-members-image {
   width: 315px;
   height: 495px;
 }
-
-div.s-shengyuan-group-container a.s-shengyuan-group-footer-jumbotron {
-  background: url('../images/shengyuan_group_footer_jumbotron.png') no-repeat center;
-  background-size: 100% auto;
-  display: block;
-  width: 1000px;
-  height: 286px;
-}

@@ -30,11 +30,3 @@ div.s-shengyuan-estate-container p.s-shengyuan-estate-introduction {
   font-size: 13px;
   line-height: 20px;
 }
-
-div.s-shengyuan-estate-container a.s-shengyuan-estate-footer-jumbotron {
-  background: url('../images/shengyuan_estate_footer_jumbotron.png') no-repeat center ;
-  background-size: 100% auto;
-  display: block;
-  width: 1000px;
-  height: 500px;
-}
