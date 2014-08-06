@@ -1,4 +1,4 @@
-var shengyuan = angular.module('shengyuan', ['ngResource', 'ngRoute', 'pascalprecht.translate']).config(['$routeProvider', '$translateProvider', function ($routeProvider, $translateProvider) {
+var shengyuan = angular.module('shengyuan', ['ngAnimate', 'ngResource', 'ngRoute', 'pascalprecht.translate']).config(['$routeProvider', '$translateProvider', function ($routeProvider, $translateProvider) {
 
   $.each(i18n, function (language, translation) {
     $translateProvider.translations(language, translation);

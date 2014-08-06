@@ -1,0 +1,28 @@
+#s-carousel-container {
+  position: relative;
+  width: 1000px;
+  height: 450px;
+}
+
+#s-carousel-container .s-carousel-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.s-carousel-slide.ng-hide-add,
+.s-carousel-slide.ng-hide-remove {
+  -webkit-transition: all linear 0.5s;
+  -moz-transition: all linear 0.5s;
+  -o-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+  display: block!important;
+}
+.s-carousel-slide.ng-hide-add.ng-hide-add-active,
+.s-carousel-slide.ng-hide-remove {
+  opacity: 0;
+}
+.s-carousel-slide.ng-hide-add,
+.s-carousel-slide.ng-hide-remove.ng-hide-remove-active {
+  opacity: 1;
+}
