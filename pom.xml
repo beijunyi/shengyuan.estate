@@ -33,6 +33,7 @@
     <elasticsearch-version>1.1.1</elasticsearch-version>
     <resteasy-version>3.0.8.Final</resteasy-version>
     <jasypt-version>1.9.2</jasypt-version>
+    <jawr-version>3.5.2</jawr-version>
 
     <!--apache-->
     <commons-configuration-version>1.10</commons-configuration-version>

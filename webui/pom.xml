@@ -19,6 +19,13 @@
       <artifactId>core</artifactId>
       <version>1.0-SNAPSHOT</version>
     </dependency>
+
+    <dependency>
+      <groupId>net.jawr</groupId>
+      <artifactId>jawr-core</artifactId>
+      <version>${jawr-version}</version>
+    </dependency>
+
   </dependencies>
 
 </project>
