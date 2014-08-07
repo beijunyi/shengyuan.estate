@@ -20,8 +20,10 @@ a {
 }
 
 
-.s-row-container {
-  overflow: auto;
+.s-row-container:after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .s-row-container > * {
@@ -33,7 +35,7 @@ a {
 }
 
 .s-column-minor {
-  width: 40%;
+  width: 35%;
 }
 
 .s-left {
@@ -43,15 +45,6 @@ a {
 .s-right {
   float: right;
 }
-
-.s-row-container .s-left {
-  padding-right: 10%;
-}
-
-.s-row-container .s-right {
-  padding-left: 10%;
-}
-
 
 .s-heading {
   font-size: 16px;
