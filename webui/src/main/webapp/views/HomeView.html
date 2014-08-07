@@ -1,11 +1,9 @@
-<div class="s-home-container">
-  <div class="s-home-left">
-    <div class="s-letter-container">
-      <h5 class="s-letter-opening">{{'LETTER_OPENING' | translate}}</h5>
-      <p class="s-letter-content">{{'LETTER_CONTENT' | translate}}</p>
-    </div>
+<div id="s-home-container" class="s-row-container">
+  <div class="s-column-major s-left">
+    <h5 id="s-home-letter-opening" class="s-heading">{{'LETTER_OPENING' | translate}}</h5>
+    <p id="s-home-letter-content" class="s-content">{{'LETTER_CONTENT' | translate}}</p>
   </div>
-  <div class="s-home-right">
+  <div class="s-column-minor s-right">
     <div ng-include="'views/BusinessInformationView.html'"></div>
   </div>
 </div>

@@ -16,7 +16,7 @@
 <body>
 
 <div ng-include="'views/GlobalHeaderView.html'"></div>
-<div ng-view></div>
+<div id="s-view-container" ng-view></div>
 <div ng-include="'views/GlobalFooterView.html'"></div>
 
 

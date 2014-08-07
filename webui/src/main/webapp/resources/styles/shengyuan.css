@@ -13,3 +13,52 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+
+#s-view-container {
+  padding: 50px;
+}
+
+
+.s-row-container {
+  overflow: auto;
+}
+
+.s-row-container > * {
+  display: inline-block;
+}
+
+.s-column-major {
+  width: 60%;
+}
+
+.s-column-minor {
+  width: 40%;
+}
+
+.s-left {
+  float: left;
+}
+
+.s-right {
+  float: right;
+}
+
+.s-row-container .s-left {
+  padding-right: 10%;
+}
+
+.s-row-container .s-right {
+  padding-left: 10%;
+}
+
+
+.s-heading {
+  font-size: 16px;
+}
+
+.s-content {
+  white-space: pre-wrap;
+  font-size: 13px;
+  line-height: 20px;
+}

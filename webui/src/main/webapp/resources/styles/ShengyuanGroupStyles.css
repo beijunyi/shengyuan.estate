@@ -1,29 +1,4 @@
-div.s-shengyuan-group-container {
-  padding: 50px 50px 0 50px;
-  height: 500px;
-}
-
-div.s-shengyuan-group-container > div {
-  display: inline-block;
-  float: left;
-}
-
-div.s-shengyuan-group-container div.s-shengyuan-group-left {
-  width: 65%;
-}
-
-div.s-shengyuan-group-container div.s-shengyuan-group-right {
-  width: 35%;
-}
-
-div.s-shengyuan-group-container p.s-shengyuan-group-introduction {
-  white-space: pre-wrap;
-  padding: 0 50px 0 0;
-  font-size: 13px;
-  line-height: 20px;
-}
-
-div.s-shengyuan-group-container a.s-shengyuan-group-members-image {
+#s-shengyuan-group-container a.s-shengyuan-group-members-image {
   background: url('../images/shengyuan_group_members_image.png') no-repeat center;
   background-size: 100% auto;
   display: block;

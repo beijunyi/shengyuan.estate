@@ -1,38 +1,13 @@
-div.s-investment-consulting-container {
-  padding: 50px 50px 0 50px;
-  height: 500px;
-}
-
-div.s-investment-consulting-container > div {
-  display: inline-block;
-  float: left;
-}
-
-div.s-investment-consulting-container div.s-investment-consulting-left {
-  width: 65%
-}
-
-div.s-investment-consulting-container div.s-investment-consulting-right {
-  width: 35%
-}
-
-div.s-investment-consulting-container p.s-investment-consulting-introduction {
-  white-space: pre-wrap;
-  padding: 0 50px 0 0;
-  font-size: 13px;
-  line-height: 20px;
-}
-
-div.s-investment-consulting-container ul.s-investment-consulting-images-list {
+#s-investment-consulting-container ul.s-investment-consulting-images-list {
   padding: 0;
   font-size: 12px;
 }
 
-div.s-investment-consulting-container li.s-investment-consulting-image-container {
+#s-investment-consulting-container li.s-investment-consulting-image-container {
   list-style-type: none;
 }
 
-div.s-investment-consulting-container a.s-investment-consulting-image-1 {
+#s-investment-consulting-container a.s-investment-consulting-image-1 {
   background: url('../images/investment_consulting_image_1.jpg') no-repeat center;
   background-size: 100% auto;
   display: block;
@@ -40,7 +15,7 @@ div.s-investment-consulting-container a.s-investment-consulting-image-1 {
   height: 177px;
 }
 
-div.s-investment-consulting-container a.s-investment-consulting-image-2 {
+#s-investment-consulting-container a.s-investment-consulting-image-2 {
   background: url('../images/investment_consulting_image_2.jpg') no-repeat center;
   background-size: 100% auto;
   display: block;
