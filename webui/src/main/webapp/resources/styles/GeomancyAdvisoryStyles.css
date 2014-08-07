@@ -1,9 +1,9 @@
-div.s-geomancy-advisory-container div.s-geomancy-advisory-main-body {
+div.s-geomancy-advisory-container {
   padding: 50px 50px 0 50px;
   height: 630px;
 }
 
-div.s-geomancy-advisory-container div.s-geomancy-advisory-main-body > div {
+div.s-geomancy-advisory-container > div {
   display: inline-block;
   float: left;
 }

@@ -1,9 +1,9 @@
-div.s-investment-consulting-container div.s-investment-consulting-main-body {
+div.s-investment-consulting-container {
   padding: 50px 50px 0 50px;
   height: 500px;
 }
 
-div.s-investment-consulting-container div.s-investment-consulting-main-body > div {
+div.s-investment-consulting-container > div {
   display: inline-block;
   float: left;
 }

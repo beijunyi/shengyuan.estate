@@ -1,9 +1,9 @@
-div.s-home-container div.s-home-main-body {
+div.s-home-container {
   padding: 50px 50px 0 50px;
   height: 630px;
 }
 
-div.s-home-container div.s-home-main-body > div {
+div.s-home-container > div {
   display: inline-block;
   float: left;
 }

@@ -5,7 +5,7 @@
 <meta charset="UTF-8">
 <html ng-app="shengyuan">
 <head>
-  <title>{{'SHENGYUAN_ESTATE' | translate}}</title>
+  <title>圣源地产 Shengyuan Estate</title>
   <jwr:style src="/all.css" />
 
   <jwr:script src="/lib.js"/>
