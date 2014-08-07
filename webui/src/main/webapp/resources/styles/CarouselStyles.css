@@ -10,10 +10,6 @@
   left: 0;
 }
 
-#s-carousel-container img {
-  display: block;
-}
-
 #s-carousel-container .s-carousel-slide.ng-hide-add,
 #s-carousel-container .s-carousel-slide.ng-hide-remove {
   -webkit-transition: all linear 0.8s;
