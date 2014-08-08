@@ -99,21 +99,21 @@ var i18n = {
       '贵仁先生三十几岁就晋升为大学教授，在日本国易断学院开设易经、风水学、四柱学等课程。同时，贵仁先生还在日本多家大型企业担任风水顾问，进行风水指导。在日本期间，贵仁先生曾多次带领学生对着名胜地，进行“寻龙点穴”的风水实地勘察。\n\n' +
       '贵仁先生现定居英国，亲自创建首家专门研究英国本土风水的易经苑，并服务於社会，对办公室、商铺、银行、货仓、家居等进行风水勘察、设计、布局诸项业务；并对英国、瑞士、德国、西班牙、日本等多家大型知名企业进行风水指导。',
 
-    CUSTOMER_TESTIMONIAL_1_CONTENT: '' +
+    CUSTOMER_TESTIMONIAL_1_COMMENT: '' +
       '“我委托圣源地产为我在South Kensington买了公寓。2008金融风暴结束之後，正是置业的好时机，几年来这栋房子已经升值40%以上，感谢圣源集团地产帮我们找到回报率如此高的地产。”',
-    CUSTOMER_TESTIMONIAL_1_AUTHOR: '' +
+    CUSTOMER_TESTIMONIAL_1_NAME: '' +
       '中国上海 徐女士',
-    CUSTOMER_TESTIMONIAL_2_CONTENT: '' +
+    CUSTOMER_TESTIMONIAL_2_COMMENT: '' +
       '“非常感谢圣源地产为我推荐了两套伦敦新金融城canary wharf的公寓。这里不仅地理位置好，出租回报率高，而且升值快，短短的三年时间居然涨了30%，实在是非常好的投资。”',
-    CUSTOMER_TESTIMONIAL_2_AUTHOR: '' +
+    CUSTOMER_TESTIMONIAL_2_NAME: '' +
       '中国广西 王女士',
-    CUSTOMER_TESTIMONIAL_3_CONTENT: '' +
+    CUSTOMER_TESTIMONIAL_3_COMMENT: '' +
       '“感謝圣源集团地产协助我们在 Notting Hill购买了物业，这两年升值了45% ”',
-    CUSTOMER_TESTIMONIAL_3_AUTHOR: '' +
+    CUSTOMER_TESTIMONIAL_3_NAME: '' +
       '中国江苏 程女士',
-    CUSTOMER_TESTIMONIAL_4_CONTENT: '' +
+    CUSTOMER_TESTIMONIAL_4_COMMENT: '' +
       '“在圣源地产的极力推荐下，我们在具有伦敦后花园之称的Bromley South购买了一套独栋别墅。 此区域位于肯特郡内，不仅治安好，还拥有多所全英知名的好学校，让我的孩子们都得到了传统的英式教育。近来还得知这一年内我们的房子居然升值超过了25%，我们非常满意。” ',
-    CUSTOMER_TESTIMONIAL_4_AUTHOR: '' +
+    CUSTOMER_TESTIMONIAL_4_NAME: '' +
       '中国东北 盖先生'
   }
 

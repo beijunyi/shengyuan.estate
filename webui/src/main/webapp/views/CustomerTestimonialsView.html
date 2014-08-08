@@ -1,39 +1,10 @@
-<div id="s-customer-testimonials-container">
+<div id="s-customer-testimonials-container" ng-controller="CustomerTestimonialsController">
   <ul class="s-customer-testimonials-list">
-    <li class="s-customer-testimonial">
-      <div class="s-customer-testimonial-image-container">
-        <a class="s-customer-testimonial-image s-customer-testimonial-image-1"></a>
-      </div>
-      <div class="s-customer-testimonial-text-container">
-        <p class="s-customer-testimonial-content">{{'CUSTOMER_TESTIMONIAL_1_CONTENT' | translate}}</p>
-        <p class="s-customer-testimonial-author">{{'CUSTOMER_TESTIMONIAL_1_AUTHOR' | translate}}</p>
-      </div>
-    </li>
-    <li class="s-customer-testimonial">
-      <div class="s-customer-testimonial-image-container">
-        <a class="s-customer-testimonial-image s-customer-testimonial-image-2"></a>
-      </div>
-      <div class="s-customer-testimonial-text-container">
-        <p class="s-customer-testimonial-content">{{'CUSTOMER_TESTIMONIAL_2_CONTENT' | translate}}</p>
-        <p class="s-customer-testimonial-author">{{'CUSTOMER_TESTIMONIAL_2_AUTHOR' | translate}}</p>
-      </div>
-    </li>
-    <li class="s-customer-testimonial">
-      <div class="s-customer-testimonial-image-container">
-        <a class="s-customer-testimonial-image s-customer-testimonial-image-3"></a>
-      </div>
-      <div class="s-customer-testimonial-text-container">
-        <p class="s-customer-testimonial-content">{{'CUSTOMER_TESTIMONIAL_3_CONTENT' | translate}}</p>
-        <p class="s-customer-testimonial-author">{{'CUSTOMER_TESTIMONIAL_3_AUTHOR' | translate}}</p>
-      </div>
-    </li>
-    <li class="s-customer-testimonial">
-      <div class="s-customer-testimonial-image-container">
-        <a class="s-customer-testimonial-image s-customer-testimonial-image-4"></a>
-      </div>
-      <div class="s-customer-testimonial-text-container">
-        <p class="s-customer-testimonial-content">{{'CUSTOMER_TESTIMONIAL_4_CONTENT' | translate}}</p>
-        <p class="s-customer-testimonial-author">{{'CUSTOMER_TESTIMONIAL_4_AUTHOR' | translate}}</p>
+    <li class="s-row-container" ng-repeat="t in testimonials">
+      <img class="s-left" ng-src="resources/images/{{t.image}}">
+      <div class="s-right s-content" style="width: 70%">
+        <p>{{t.comment | translate}}</p>
+        <p class="s-text-right">{{t.name | translate}}</p>
       </div>
     </li>
   </ul>
