@@ -1,10 +1,10 @@
 <div id="s-customer-testimonials-container" ng-controller="CustomerTestimonialsController">
-  <ul class="s-customer-testimonials-list">
-    <li class="s-row-container" ng-repeat="t in testimonials">
+  <ul>
+    <li class="s-row-container s-testimonial-row" ng-repeat="t in testimonials">
       <img class="s-left" ng-src="resources/images/{{t.image}}">
-      <div class="s-right s-content" style="width: 70%">
-        <p>{{t.comment | translate}}</p>
-        <p class="s-text-right">{{t.name | translate}}</p>
+      <div class="s-right s-column-major">
+        <p class="s-content">{{t.comment | translate}}</p>
+        <p class="s-content s-text-right">{{t.name | translate}}</p>
       </div>
     </li>
   </ul>

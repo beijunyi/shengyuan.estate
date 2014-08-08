@@ -1,7 +1,11 @@
-#s-customer-testimonials-container div.s-customer-testimonial-text-container {
-  margin-top: 10px;
+#s-customer-testimonials-container .s-column-major {
+  width: 70%;
 }
 
-#s-customer-testimonials-container div.s-customer-testimonial-text-container p {
-  padding-right: 20px;
+#s-customer-testimonials-container .s-testimonial-row {
+  margin-bottom: 40px;
+}
+
+#s-customer-testimonials-container .s-testimonial-row:last-child {
+  margin-bottom: 0;
 }
