@@ -79,6 +79,12 @@ h1, h2, h3, h4, h5 {
   line-height: 20px;
 }
 
+.s-annotation {
+  font-size: 12px;
+  margin: 5px 0 35px;
+  text-align: center;
+}
+
 .s-text-center {
   text-align: center;
 }

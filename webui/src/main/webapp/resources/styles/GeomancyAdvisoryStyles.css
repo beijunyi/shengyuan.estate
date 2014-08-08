@@ -1,27 +1,7 @@
-#s-geomancy-advisory-container a.s-geomancy-introduction-image {
-  background: url('../images/geomancy_image.jpg') no-repeat center;
-  background-size: 100% auto;
-  display: block;
-  width: 500px;
-  height: 419px;
-  margin: 0 auto;
+#s-geomancy-advisory-image {
+  margin: 12px auto;
 }
 
-#s-geomancy-advisory-container div.s-geomancy-expert-images-container {
-  height: 214px;
-  font-size: 12px;
-}
-
-#s-geomancy-advisory-container div.s-geomancy-expert-images-container p {
-  margin: 5px 0 10px;
-  text-align: center;
-}
-
-#s-geomancy-advisory-container a.s-geomancy-expert-image {
-  background: url('../images/geomancy_expert_image.jpg') no-repeat center;
-  background-size: 100% auto;
-  display: block;
-  width: 280px;
-  height: 187px;
+#s-geomancy-advisory-expert-image {
   margin: 0 auto;
 }

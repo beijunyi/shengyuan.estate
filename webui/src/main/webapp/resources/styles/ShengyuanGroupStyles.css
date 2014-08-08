@@ -1,7 +1,4 @@
-#s-shengyuan-group-container a.s-shengyuan-group-members-image {
-  background: url('../images/shengyuan_group_members_image.png') no-repeat center;
-  background-size: 100% auto;
-  display: block;
+#s-shengyuan-group-memebers-image {
   width: 315px;
   height: 495px;
 }
