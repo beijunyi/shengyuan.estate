@@ -27,39 +27,29 @@
 #s-global-footer-container .s-tip-link {
   margin: 0 15px;
   float: left;
-}
-
-#s-global-footer-container li.s-tip-link > a {
-  background-size: 100% auto;
   display: block;
   width: 210px;
   height: 140px;
+  position: relative;
+}
+
+#s-global-footer-container .s-link-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#s-global-footer-container .s-link-text {
   font-weight: bold;
   font-size: 13px;
   letter-spacing: 1px;
-}
-
-#s-global-footer-container a.s-tip-property-types {
-  background: url('../images/property_types_image.jpg') no-repeat;
-}
-
-#s-global-footer-container a.s-tip-property-rights {
-  background: url('../images/property_rights_image.jpg') no-repeat;
-}
-
-#s-global-footer-container a.s-tip-purchase-process {
-  background: url('../images/purchase_process_image.jpg') no-repeat;
-}
-
-#s-global-footer-container a.s-tip-investment-timing {
-  background: url('../images/investment_timing_image.jpg') no-repeat;
-}
-
-#s-global-footer-container li.s-tip-link span {
   color: #FFFFFF;
   display: block;
   width: 100%;
   background: rgba(0,0,0, 0.5);
   line-height: 25px;
   text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
