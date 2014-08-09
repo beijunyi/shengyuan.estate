@@ -1,51 +1,29 @@
-div.s-global-header-container div.s-global-header-top {
-  height: 133px;
-}
-
-div.s-global-header-container div.s-global-header-top > div {
-  display: inline-block;
-  float: left;
-  width: 50%;
-}
-
 #s-header-brand {
   width: 475px;
   height: 133px;
 }
-
-div.s-global-header-container p.s-motto {
-  font-size: 18px;
-  line-height: 30px;
-  font-weight: bold;
-}
-
-div.s-global-header-container div.s-global-header-bottom {
-  height: 35px;
+#s-header-nav-bar {
   background: #B81C25;
   color: #FFFFFF;
 }
 
-div.s-global-header-container ul.s-tab-container {
+#s-header-tab-container {
   width: 900px;
-  height: 100%;
   margin: 0 auto;
-  padding: 0;
+  display: table;
 }
 
-div.s-global-header-container ul.s-tab-container > li {
-  height: 100%;
-  display: inline-block;
+#s-header-tab-container > * {
+  display: table-cell;
+}
+
+#s-global-header-container li.s-tab > a {
+  display: block;
   text-align: center;
   line-height: 35px;
-  width: 150px;
-  float: left;
 }
 
-div.s-global-header-container li.s-tab > a {
-  display: block;
-}
-
-div.s-global-header-container li.s-tab-active > a {
+#s-global-header-container li.s-tab-active > a {
   background: #FFFFFF;
   color: #B81C25;
 }

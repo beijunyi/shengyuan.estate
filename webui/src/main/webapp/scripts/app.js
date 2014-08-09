@@ -1,4 +1,4 @@
-var shengyuan = angular.module('shengyuan', ['ngAnimate', 'ngResource', 'ngRoute', 'pascalprecht.translate']).config(['$routeProvider', '$translateProvider', function ($routeProvider, $translateProvider) {
+var shengyuan = angular.module('shengyuan', ['ngAnimate', 'ngResource', 'ngRoute', 'pascalprecht.translate']).config(function ($locationProvider, $routeProvider, $translateProvider) {
 
   $.each(i18n, function (language, translation) {
     $translateProvider.translations(language, translation);
@@ -13,23 +13,22 @@ var shengyuan = angular.module('shengyuan', ['ngAnimate', 'ngResource', 'ngRoute
     return 'zh-CN';
   });
 
-  $routeProvider.when('/home', {
-    templateUrl: 'views/HomeView.html'
-  }).when('/shengyuan_estate', {
+  $locationProvider.html5Mode(true);
+
+  $routeProvider.when('/shengyuan_estate.html', {
     templateUrl: 'views/ShengyuanEstateView.html'
-  }).when('/shengyuan_group', {
+  }).when('/shengyuan_group.html', {
     templateUrl: 'views/ShengyuanGroupView.html'
-  }).when('/investment_consulting', {
+  }).when('/investment_consulting.html', {
     templateUrl: 'views/InvestmentConsultingView.html'
-  }).when('/geomancy_advisory', {
+  }).when('/geomancy_advisory.html', {
     templateUrl: 'views/GeomancyAdvisoryView.html'
-  }).when('/latest_properties', {
-    templateUrl: 'views/LatestPropertiesView.html'
-  }).when('/customer_testimonials', {
+  }).when('/latest_properties.html', {
+    templateUrl: '/views/LatestPropertiesView.html'
+  }).when('/customer_testimonials.html', {
     templateUrl: 'views/CustomerTestimonialsView.html'
   }).otherwise({
-    redirectTo: '/home'
+    templateUrl: 'views/HomeView.html'
   });
 
-}
-]);
+});
