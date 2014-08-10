@@ -15,7 +15,7 @@
 
 <body>
 
-<div id="s-global-header-container" ng-controller="GlobalHeaderController">
+<div id="s-global-header-container" ng-controller="HeaderNavigationController">
   <a href="/"><img id="s-header-brand" src="resources/images/brand.png"/></a>
   <div id="s-header-nav-bar">
     <ul id="s-header-tab-container" class="s-row-container">

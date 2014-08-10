@@ -1,4 +1,4 @@
-shengyuan.controller('GlobalHeaderController', function ($scope, $location) {
+shengyuan.controller('HeaderNavigationController', function ($scope, $location) {
   $scope.isActive = function(route) {
     return route === $location.path();
   };
