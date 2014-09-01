@@ -27,6 +27,9 @@ var shengyuan = angular.module('shengyuan', ['ngAnimate', 'ngResource', 'ngRoute
     templateUrl: 'views/LatestPropertiesView.html'
   }).when('/page/customer-testimonials', {
     templateUrl: 'views/CustomerTestimonialsView.html'
+  }).when('/page/tips/:tipLink', {
+    templateUrl: 'views/TipsView.html',
+    controller: 'TipsController'
   }).when('/', {
     templateUrl: 'views/HomeView.html'
   });

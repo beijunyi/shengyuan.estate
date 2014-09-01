@@ -38,7 +38,7 @@
 
   <ul id="s-tip-links-container" class="s-row-container">
     <li class="s-tip-link">
-      <a href="#">
+      <a href="page/tips/property-types">
         <img class="s-link-image" src="resources/images/property_types_image.jpg">
         <span class="s-link-text">{{'PROPERTY_TYPES' | translate}}</span>
       </a>
