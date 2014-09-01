@@ -13,6 +13,11 @@
   color: #FFFFFF;
 }
 
+#s-header-nav-bar a:hover {
+  background: #BA4E54;
+  transition: background 0.3s;
+}
+
 #s-header-tab-container {
   width: 900px;
   margin: 0 auto;
