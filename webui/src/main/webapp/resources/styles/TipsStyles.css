@@ -3,6 +3,16 @@
   display: inline-block;
 }
 
+.s-tips-container img.s-large-image {
+  height: 400px;
+  display: block;
+  margin: auto;
+}
+
+.s-tips-container .sub-section {
+  margin-top: 100px;
+}
+
 .s-tips-container h3 {
   margin-top: 60px;
   margin-bottom: 10px;

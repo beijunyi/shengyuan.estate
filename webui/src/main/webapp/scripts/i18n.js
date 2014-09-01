@@ -16,7 +16,7 @@ var i18n = {
     CUSTOMER_TESTIMONIALS: '顾客回馈',
 
     PROPERTY_TYPES: '英国房屋类型一览',
-    PROPERTY_RIGHTS: '英国房屋产权的类型',
+    PROPERTY_RIGHTS: '英国房屋产权的区分',
     PURCHASE_PROCESS: '英国期房购置流程',
     INVESTMENT_TIMING: '投资英国房地产时机分析',
 

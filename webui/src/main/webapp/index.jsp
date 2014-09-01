@@ -44,19 +44,19 @@
       </a>
     </li>
     <li class="s-tip-link">
-      <a href="#">
+      <a href="page/tips/property-rights">
         <img class="s-link-image" src="resources/images/property_rights_image.jpg">
         <span class="s-link-text">{{'PROPERTY_RIGHTS' | translate}}</span>
       </a>
     </li>
     <li class="s-tip-link">
-      <a href="#">
+      <a href="page/tips/purchase-process">
         <img class="s-link-image" src="resources/images/purchase_process_image.jpg">
         <span class="s-link-text">{{'PURCHASE_PROCESS' | translate}}</span>
       </a>
     </li>
     <li class="s-tip-link">
-      <a href="#">
+      <a href="page/tips/investment-timing">
         <img class="s-link-image" src="resources/images/investment_timing_image.jpg">
         <span class="s-link-text">{{'INVESTMENT_TIMING' | translate}}</span>
       </a>
