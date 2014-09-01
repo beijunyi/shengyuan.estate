@@ -1,6 +1,12 @@
+#s-header-brand-container {
+  overflow: hidden;
+  height: 120px;
+  display: inline-block;
+}
+
 #s-header-brand {
-  width: 475px;
-  height: 133px;
+  height: 200px;
+  margin: -40px -10px;
 }
 #s-header-nav-bar {
   background: #B81C25;

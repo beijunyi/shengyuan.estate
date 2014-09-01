@@ -2,9 +2,11 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
 
 <!DOCTYPE html>
-<meta charset="UTF-8">
 <html ng-app="shengyuan">
 <head>
+  <base href="/">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta charset="utf-8"/>
   <title>圣源地产 Shengyuan Estate</title>
   <jwr:style src="/all.css" />
 
@@ -16,7 +18,7 @@
 <body>
 
 <div id="s-global-header-container" ng-controller="HeaderNavigationController">
-  <a href="/"><img id="s-header-brand" src="resources/images/brand.png"/></a>
+  <a id="s-header-brand-container" href="/"><img id="s-header-brand" src="resources/images/brand.png"/></a>
   <div id="s-header-nav-bar">
     <ul id="s-header-tab-container" class="s-row-container">
       <li class="s-tab" ng-repeat="t in tabs" ng-class="{'s-tab-active': isActive(t.href)}">
