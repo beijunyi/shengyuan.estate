@@ -15,19 +15,19 @@ var shengyuan = angular.module('shengyuan', ['ngAnimate', 'ngResource', 'ngRoute
 
   $locationProvider.html5Mode(true);
 
-  $routeProvider.when('/shengyuan_estate.html', {
+  $routeProvider.when('/page/shengyuan-estate', {
     templateUrl: 'views/ShengyuanEstateView.html'
-  }).when('/shengyuan_group.html', {
+  }).when('/page/shengyuan-group', {
     templateUrl: 'views/ShengyuanGroupView.html'
-  }).when('/investment_consulting.html', {
+  }).when('/page/investment-consulting', {
     templateUrl: 'views/InvestmentConsultingView.html'
-  }).when('/geomancy_advisory.html', {
+  }).when('/page/geomancy-advisory', {
     templateUrl: 'views/GeomancyAdvisoryView.html'
-  }).when('/latest_properties.html', {
-    templateUrl: '/views/LatestPropertiesView.html'
-  }).when('/customer_testimonials.html', {
+  }).when('/page/latest-properties', {
+    templateUrl: 'views/LatestPropertiesView.html'
+  }).when('/page/customer-testimonials', {
     templateUrl: 'views/CustomerTestimonialsView.html'
-  }).otherwise({
+  }).when('/', {
     templateUrl: 'views/HomeView.html'
   });
 

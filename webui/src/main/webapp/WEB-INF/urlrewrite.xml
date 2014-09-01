@@ -4,7 +4,7 @@
 <urlrewrite>
 
   <rule>
-    <from>^/[^/]*.html$</from>
+    <from>^/page/(.*)$</from>
     <to>/index.jsp</to>
   </rule>
 

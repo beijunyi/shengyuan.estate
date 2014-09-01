@@ -4,22 +4,22 @@ shengyuan.controller('HeaderNavigationController', function ($scope, $location) 
   };
 
   $scope.tabs = [{
-    href: '/shengyuan_estate.html',
+    href: '/page/shengyuan-estate',
     title: 'SHENGYUAN_ESTATE'
   }, {
-    href: '/shengyuan_group.html',
+    href: '/page/shengyuan-group',
     title: 'SHENGYUAN_GROUP'
   }, {
-    href: '/investment_consulting.html',
+    href: '/page/investment-consulting',
     title: 'INVESTMENT_CONSULTING'
   }, {
-    href: '/geomancy_advisory.html',
+    href: '/page/geomancy-advisory',
     title: 'GEOMANCY_ADVISORY'
   }, {
-    href: '/latest_properties.html',
+    href: '/page/latest-properties',
     title: 'LATEST_PROPERTIES'
   }, {
-    href: '/customer_testimonials.html',
+    href: '/page/customer-testimonials',
     title: 'CUSTOMER_TESTIMONIALS'
   }];
 });
